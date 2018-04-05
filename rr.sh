@@ -46,3 +46,11 @@ rm -rf packages/apps/Snap
 #Kernel Toolchain
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
 git clone https://gitlab.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2.git prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
+
+#Modded_frameworks_base
+rm -rf frame*/base
+git clone https://github.com/EndLess728/android_frameworks_base -b oreo frame*/base
+
+#Modded_Package_Apps_Settings
+rm -rf packages/apps/Settings
+git clone https://github.com/EndLess728/Resurrection_packages_apps_Settings -b oreo packages/apps/Settings
