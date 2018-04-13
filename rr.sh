@@ -2,7 +2,7 @@
 rm -rf device/xiaomi/mido
 git clone https://github.com/EndLess728/RR_xiaomi_device_mido.git -b rr device/xiaomi/mido
 rm -rf kernel/xiaomi/msm8953
-git clone https://github.com/EndLess728/kernel_xiaomi_msm8953.git -b oreo-mr1 kernel/xiaomi/msm8953
+git clone https://github.com/ResurrectionRemixMido/android_kernel_xiaomi_msm8953 -b oreo kernel/xiaomi/msm8953
 rm -rf vendor/xiaomi
 git clone https://github.com/EndLess728/proprietary_vendor_xiaomi.git -b oreo-mr1 vendor/xiaomi 
 
