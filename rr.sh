@@ -2,7 +2,7 @@
 rm -rf device/xiaomi/mido
 git clone https://github.com/EndLess728/RR_xiaomi_device_mido.git -b rr device/xiaomi/mido
 rm -rf kernel/xiaomi/msm8953
-git clone https://github.com/ResurrectionRemixMido/android_kernel_xiaomi_msm8953 -b oreo kernel/xiaomi/msm8953
+git clone https://github.com/RR-by-EndLess/android_kernel_xiaomi_msm8953 -b oreo kernel/xiaomi/msm8953
 rm -rf vendor/xiaomi
 git clone https://github.com/EndLess728/proprietary_vendor_xiaomi.git -b oreo-mr1 vendor/xiaomi 
 
@@ -49,8 +49,16 @@ git clone https://gitlab.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aar
 
 #Modded_frameworks_base
 rm -rf frameworks/base
-git clone https://github.com/EndLess728/android_frameworks_base -b oreo frameworks/base
+git clone https://github.com/RR-by-EndLess/android_frameworks_base -b oreo frameworks/base
 
 #Modded_Package_Apps_Settings
 rm -rf packages/apps/Settings
-git clone https://github.com/EndLess728/Resurrection_packages_apps_Settings -b oreo packages/apps/Settings
+git clone https://github.com/RR-by-EndLess/Resurrection_packages_apps_Settings -b oreo packages/apps/Settings
+
+#Modded android_vendor_resurrection
+rm -rf vendor/rr
+git clone https://github.com/RR-by-EndLess/android_vendor_resurrection -b oreo vendor/rr
+
+#Modded android_system_sepolicy
+rm -rf system/sepolicy
+git clone https://github.com/RR-by-EndLess/android_system_sepolicy -b oreo system/sepolicy
