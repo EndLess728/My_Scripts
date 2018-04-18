@@ -56,8 +56,8 @@ rm -rf packages/apps/Settings
 git clone https://github.com/RR-by-EndLess/Resurrection_packages_apps_Settings -b oreo packages/apps/Settings
 
 #Modded android_vendor_resurrection
-rm -rf vendor/rr
-git clone https://github.com/RR-by-EndLess/android_vendor_resurrection -b oreo vendor/rr
+#rm -rf vendor/rr
+#git clone https://github.com/RR-by-EndLess/android_vendor_resurrection -b oreo vendor/rr
 
 #Modded android_system_sepolicy
 rm -rf system/sepolicy
