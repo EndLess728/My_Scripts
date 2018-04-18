@@ -62,3 +62,11 @@ git clone https://github.com/RR-by-EndLess/android_vendor_resurrection -b oreo v
 #Modded android_system_sepolicy
 rm -rf system/sepolicy
 git clone https://github.com/RR-by-EndLess/android_system_sepolicy -b oreo system/sepolicy
+
+#Modded lineage-sdk
+rm -rf lineage-sdk
+git clone https://github.com/RR-by-EndLess/lineage-sdk -b oreo lineage-sdk
+
+#Modded android_build
+rm -rf build/make
+git clone https://github.com/RR-by-EndLess/android_build -b oreo build/make
