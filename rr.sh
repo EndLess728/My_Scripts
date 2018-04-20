@@ -44,8 +44,8 @@ rm -rf packages/apps/Eleven
 rm -rf packages/apps/Snap 
 
 #Kernel Toolchain
-rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
-git clone https://gitlab.com/PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2.git prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2
+rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android
+git clone https://github.com/krasCGQ/aarch64-linux-android.git -b opt-gnu-7.x prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android
 
 #Modded_frameworks_base
 rm -rf frameworks/base
