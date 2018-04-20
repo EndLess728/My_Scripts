@@ -1,6 +1,6 @@
 #Device specific BLOBS 
 rm -rf device/xiaomi/mido
-git clone https://github.com/EndLess728/RR_xiaomi_device_mido -b test device/xiaomi/mido
+git clone https://github.com/EndLess728/RR_xiaomi_device_mido -b rr device/xiaomi/mido
 rm -rf kernel/xiaomi/msm8953
 git clone https://github.com/RR-by-EndLess/android_kernel_xiaomi_msm8953 -b oreo kernel/xiaomi/msm8953
 rm -rf vendor/xiaomi
