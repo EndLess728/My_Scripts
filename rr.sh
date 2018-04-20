@@ -39,7 +39,7 @@ rm -rf packages/apps/Gallery2
 git clone https://github.com/nitrogen-project/android_packages_apps_Gallery2.git -b o2 packages/apps/Gallery2
 
 #Removing Shit
-#rm -rf hardware/qcom/power
+rm -rf hardware/qcom/power
 rm -rf packages/apps/Eleven
 rm -rf packages/apps/Snap 
 
